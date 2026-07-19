@@ -34,7 +34,7 @@ The Resource Group module creates the Azure resource groups that organize the en
 
 ---
 
-## Step 3 – Networking Module
+## Step 2a – Networking Module
 
 The networking module provisions the virtual network, address space, and subnets.
 
@@ -42,7 +42,7 @@ The networking module provisions the virtual network, address space, and subnets
 
 ---
 
-## Step 4 – Security & Compute Modules
+## Step 2b – Security & Compute Modules
 
 The security module creates the Network Security Groups while the compute module deploys the Ubuntu virtual machine and networking resources.
 
@@ -50,7 +50,7 @@ The security module creates the Network Security Groups while the compute module
 
 ---
 
-## Step 5 – Terraform Plan
+## Step 3 – Terraform Plan
 
 Terraform evaluates the deployment before making any changes.
 
@@ -62,7 +62,7 @@ Terraform then displays the resources that will be created.
 
 ---
 
-## Step 6 – Infrastructure Deployment
+## Step 4 – Infrastructure Deployment
 
 Terraform provisions the Azure infrastructure.
 
@@ -74,7 +74,7 @@ Deployment completes successfully.
 
 ---
 
-## Step 7 – Azure Resource Verification
+## Step 5 – Azure Resource Verification
 
 After deployment, Azure Resource Groups are created to logically organize networking, compute, security, monitoring, and storage resources.
 
@@ -82,7 +82,7 @@ After deployment, Azure Resource Groups are created to logically organize networ
 
 ---
 
-## Step 8 – Azure Network Topology
+## Step 6 – Azure Network Topology
 
 The deployed Azure topology shows the virtual network, subnets, network security groups, network interface, and Ubuntu virtual machine.
 
@@ -90,7 +90,7 @@ The deployed Azure topology shows the virtual network, subnets, network security
 
 ---
 
-## Step 9 – Virtual Network Configuration
+## Step 7 – Virtual Network Configuration
 
 The virtual network is segmented into dedicated subnets for web, application, database, and Azure Bastion resources.
 
@@ -98,7 +98,7 @@ The virtual network is segmented into dedicated subnets for web, application, da
 
 ---
 
-## Step 10 – Network Security
+## Step 8 – Network Security
 
 Network Security Groups provide traffic filtering between Azure resources.
 
@@ -106,7 +106,7 @@ Network Security Groups provide traffic filtering between Azure resources.
 
 ---
 
-## Step 11 – Ubuntu Virtual Machine
+## Step 9 – Ubuntu Virtual Machine
 
 Ubuntu Linux virtual machine deployed through Terraform.
 
