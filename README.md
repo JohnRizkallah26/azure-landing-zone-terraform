@@ -12,7 +12,7 @@ The project was built as part of my cloud engineering portfolio while preparing 
 
 The following diagram illustrates the overall Azure Landing Zone architecture deployed by Terraform.
 
-![Architecture Diagram](Project%20Snapshots/14-%20Final%20Architecture.png)
+![Architecture Diagram](Snapshots/14-%20Final%20Architecture.png)
 
 ---
 
@@ -22,7 +22,7 @@ The following diagram illustrates the overall Azure Landing Zone architecture de
 
 The project is organized into reusable Terraform modules, making the infrastructure easier to maintain and scale.
 
-![Project Structure](Project%20Snapshots/01-%20Project%20Structure.png)
+![Project Structure](Snapshots/01-%20Project%20Structure.png)
 
 ---
 
@@ -30,7 +30,7 @@ The project is organized into reusable Terraform modules, making the infrastruct
 
 The Resource Group module creates the Azure resource groups that organize the environment.
 
-![Resource Groups Module](Project%20Snapshots/02-%20Modules.png)
+![Resource Groups Module](Snapshots/02-%20Modules.png)
 
 ---
 
@@ -38,7 +38,7 @@ The Resource Group module creates the Azure resource groups that organize the en
 
 The networking module provisions the virtual network, address space, and subnets.
 
-![Networking Module](Project%20Snapshots/03-%20Modules.png)
+![Networking Module](Snapshots/03-%20Modules.png)
 
 ---
 
@@ -46,7 +46,7 @@ The networking module provisions the virtual network, address space, and subnets
 
 The security module creates the Network Security Groups while the compute module deploys the Ubuntu virtual machine and networking resources.
 
-![Security & Compute Module](Project%20Snapshots/04-%20Modules.png)
+![Security & Compute Module](Snapshots/04-%20Modules.png)
 
 ---
 
@@ -54,11 +54,11 @@ The security module creates the Network Security Groups while the compute module
 
 Terraform evaluates the deployment before making any changes.
 
-![Terraform Plan Command](Project%20Snapshots/05-%20Terraform%20Plan.png)
+![Terraform Plan Command](Snapshots/05-%20Terraform%20Plan.png)
 
 Terraform then displays the resources that will be created.
 
-![Terraform Plan Results](Project%20Snapshots/06-%20Terraform%20Plan.png)
+![Terraform Plan Results](Snapshots/06-%20Terraform%20Plan.png)
 
 ---
 
@@ -66,11 +66,11 @@ Terraform then displays the resources that will be created.
 
 Terraform provisions the Azure infrastructure.
 
-![Terraform Apply](Project%20Snapshots/07-%20Terraform%20Apply.png)
+![Terraform Apply](Snapshots/07-%20Terraform%20Apply.png)
 
 Deployment completes successfully.
 
-![Terraform Apply Complete](Project%20Snapshots/08-%20Terraform%20Apply%20Complete!.png)
+![Terraform Apply Complete](Snapshots/08-%20Terraform%20Apply%20Complete!.png)
 
 ---
 
@@ -78,7 +78,7 @@ Deployment completes successfully.
 
 After deployment, Azure Resource Groups are created to logically organize networking, compute, security, monitoring, and storage resources.
 
-![Resource Groups](Project%20Snapshots/09-%20Verification%20of%20resource%20groups.png)
+![Resource Groups](Snapshots/09-%20Verification%20of%20resource%20groups.png)
 
 ---
 
@@ -86,7 +86,7 @@ After deployment, Azure Resource Groups are created to logically organize networ
 
 The deployed Azure topology shows the virtual network, subnets, network security groups, network interface, and Ubuntu virtual machine.
 
-![Network Topology](Project%20Snapshots/10-%20Network%20Topology.png)
+![Network Topology](Snapshots/10-%20Network%20Topology.png)
 
 ---
 
@@ -94,7 +94,7 @@ The deployed Azure topology shows the virtual network, subnets, network security
 
 The virtual network is segmented into dedicated subnets for web, application, database, and Azure Bastion resources.
 
-![Virtual Network](Project%20Snapshots/11-%20Virtual%20Network%20Subnets.png)
+![Virtual Network](Snapshots/11-%20Virtual%20Network%20Subnets.png)
 
 ---
 
@@ -102,7 +102,7 @@ The virtual network is segmented into dedicated subnets for web, application, da
 
 Network Security Groups provide traffic filtering between Azure resources.
 
-![Network Security Groups](Project%20Snapshots/12-%20Network%20Security%20Groups.png)
+![Network Security Groups](Snapshots/12-%20Network%20Security%20Groups.png)
 
 ---
 
@@ -110,7 +110,7 @@ Network Security Groups provide traffic filtering between Azure resources.
 
 Ubuntu Linux virtual machine deployed through Terraform.
 
-![Ubuntu VM](Project%20Snapshots/13-%20Ubuntu%20VM.png)
+![Ubuntu VM](Snapshots/13-%20Ubuntu%20VM.png)
 
 ---
 
