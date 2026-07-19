@@ -103,19 +103,7 @@ Terraform provisions all Azure resources successfully.
 
 ---
 
-## Step 9 – Deployment Verification
-
-Terraform validates that the deployed Azure infrastructure matches the configuration.
-
-```powershell
-terraform plan
-
-No changes. Your infrastructure matches the configuration.
-```
-
----
-
-## Step 10 – Azure Resource Groups
+## Step 9 – Azure Resource Groups
 
 Terraform automatically provisions dedicated Resource Groups to logically separate infrastructure components.
 
@@ -130,7 +118,7 @@ Terraform automatically provisions dedicated Resource Groups to logically separa
 
 ---
 
-## Step 11 – Virtual Network Topology
+## Step 10 – Virtual Network Topology
 
 The deployed Azure topology shows the relationships between the Virtual Network, Network Interface, Ubuntu Virtual Machine, and Network Security Groups.
 
@@ -138,7 +126,7 @@ The deployed Azure topology shows the relationships between the Virtual Network,
 
 ---
 
-## Step 12 – Virtual Network Configuration
+## Step 11 - Virtual Network Configuration
 
 The Virtual Network contains dedicated subnets for each infrastructure tier.
 
@@ -153,7 +141,7 @@ The Virtual Network contains dedicated subnets for each infrastructure tier.
 
 ---
 
-## Step 13 – Network Security Groups
+## Step 12 - Network Security Groups
 
 Each subnet is protected using dedicated Azure Network Security Groups.
 
@@ -165,7 +153,7 @@ Each subnet is protected using dedicated Azure Network Security Groups.
 
 ---
 
-## Step 14 – Ubuntu Virtual Machine
+## Step 13 - Ubuntu Virtual Machine
 
 Terraform deploys an Ubuntu Linux virtual machine inside the Web subnet.
 
