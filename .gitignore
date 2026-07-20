@@ -1,0 +1,29 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Local variable files (contain secrets)
+terraform.tfvars
+*.auto.tfvars
+*.tfvars.json
+
+# Terraform plans
+*.tfplan
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform lock file (keep this!)
+#! .terraform.lock.hcl
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini

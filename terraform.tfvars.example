@@ -1,0 +1,9 @@
+location = "eastus2"
+
+vm_name = "ubuntu-web-01"
+
+vm_size = "Standard_D2s_v3"
+
+vm_admin_username = "azureadmin"
+
+vm_admin_password = "123456"
