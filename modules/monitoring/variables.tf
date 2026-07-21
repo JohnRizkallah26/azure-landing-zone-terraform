@@ -9,3 +9,8 @@ variable "location" {
 variable "workspace_name" {
   type = string
 }
+
+variable "vm_id" {
+  description = "ID of the virtual machine"
+  type        = string
+}

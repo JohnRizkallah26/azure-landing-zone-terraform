@@ -151,6 +151,8 @@ module "monitoring" {
   location = module.resource_groups.resource_groups["rg-monitoring"].location
 
   workspace_name = var.log_analytics_workspace_name
+
+  vm_id = module.compute.vm_id
 }
 
 
