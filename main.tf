@@ -130,8 +130,30 @@ module "route_tables" {
   }
 
   tags = {}
-
 }
+
+module "storage" {
+  source = "./modules/storage"
+
+  resource_group_name = module.resource_groups.resource_groups["rg-storage"].name
+
+  location = module.resource_groups.resource_groups["rg-storage"].location
+
+  storage_account_name = var.storage_account_name
+}
+
+module "monitoring" {
+
+  source = "./modules/monitoring"
+
+  resource_group_name = module.resource_groups.resource_groups["rg-monitoring"].name
+
+  location = module.resource_groups.resource_groups["rg-monitoring"].location
+
+  workspace_name = var.log_analytics_workspace_name
+}
+
+
 
 
 

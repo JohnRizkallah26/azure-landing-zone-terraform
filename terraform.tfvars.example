@@ -7,3 +7,7 @@ vm_size = "Standard_D2s_v3"
 vm_admin_username = "azureadmin"
 
 vm_admin_password = "123456"
+
+storage_account_name = "examplestorage"
+
+log_analytics_workspace_name = "law-landingzone"

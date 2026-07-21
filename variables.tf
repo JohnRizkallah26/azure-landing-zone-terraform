@@ -40,3 +40,11 @@ variable "vm_name" {
 
 }
 
+variable "storage_account_name" {
+  description = "Storage account name"
+  type        = string
+}
+
+variable "log_analytics_workspace_name" {
+  type = string
+}
